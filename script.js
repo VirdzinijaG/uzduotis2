@@ -17,3 +17,11 @@ document.getElementById("prideti").addEventListener("click", function() {
     document.getElementById("rezultatas").innerHTML = rezultatas;
 
 } )
+
+document.getElementById("traukti").addEventListener("click", function() {
+let skaicius = document.getElementById("skaicius").value;
+
+document.getElementById("rezultatas1").innerHTML = Math.sqrt(skaicius);
+
+
+} )
